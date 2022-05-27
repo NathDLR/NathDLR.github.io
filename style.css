@@ -134,13 +134,14 @@
 
 /* Fading animation */
 .fade {
+    opacity: 1;
     animation-name: fade;
     animation-duration: 1.5s;
 }
 
 @keyframes fade {
     from {opacity: .4}
-    to {opacity: .8}
+    to {opacity: 1}
 }
 
 .mySlides {
